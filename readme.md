@@ -22,6 +22,11 @@ The code presently only works for US-based airports, as I am using an FAA source
 
 *"Fun Mode"* - open this project in Visual Studio Code with the [Geo Data Viewer Extension](https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.geo-data-viewer), select your `out.csv` file, and view the map from directly inside VSCode.
 
+## Limitations (Today)
+
+* Only available for US Airports
+* The script right now depends on a particular format for the "Route" field which follows ForeFlight's default format (spaces between waypoints). It does a best-case lookup to see if there's an airport match for an identifier. If a VOR and ID match (i.e. CTY VOR, CTY Airport), the script can't tell if it's the VOR or you landed there. May update this later to require some delimiter like MyFlightBook.com does.
+
 ## Disclaimer
 
 ForeFlight is a trademark of the Boeing company. There is no connection between this app and the ForeFlight application or company. I am just a big fan and user that depends on the great software they make to ensure the safety of myself and my passengers when we fly. Thank you to the whole ForeFlight team for making such a great application! Please visit them at **[foreflight.com](https://foreflight.com)**, buy their software, and get out and fly!
