@@ -33,7 +33,7 @@ ForeFlight is a trademark of the Boeing company. There is no connection between 
 
 ## License
 
-Please see the [`LICENSE`](license) file in this repository for details.
+Please see the [`LICENSE`](LICENSE) file in this repository for details.
 
 ## Contributing
 
