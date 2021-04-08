@@ -20,7 +20,7 @@ const go = async () => {
   console.log(`Detected logbook format of ${logFormat}.`);
 
   logData = await getLogbook(logFormat);
-  console.log(`Loaded ForeFlight logbook, ${logData.length} flights found.`)
+  console.log(`Loaded ${logFormat} logbook, ${logData.length} flights found.`)
 
   mapData = await exportToKepler(logData);
   console.log(`Completed export to kepler.gl format at out.csv.`)
