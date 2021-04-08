@@ -84,8 +84,8 @@ const getLogbook = async (logFormat) => {
     const parsed = re.exec(line);
 
     if (parsed) {
-      // // Skipping an entry if either the from or to fields are empty strings.
-      // if (parsed.groups.from !== '' && parsed.groups.to !== '') {
+      // Skipping an entry if either the from or to fields are empty strings.
+      if (parsed.groups.from !== '' && parsed.groups.to !== '') {
 
         // this is a valid logbook line, let's start iterating over the route
         const aptFrom = await airportLookup(parsed.groups.from);
@@ -125,7 +125,7 @@ const getLogbook = async (logFormat) => {
           }
           output.push(o);
         }
-      // }
+      }
     }
   }
   return output;
