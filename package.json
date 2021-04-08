@@ -8,7 +8,7 @@
   },
   "author": "Dillon TenBrink <dillon@tenbrink.us>",
   "repository": {
-    "url": "https://github.com/dillten/foreflight-map-generator"
+    "url": "https://github.com/dillten/flight-map-generator"
   },
   "license": "MIT",
   "dependencies": {
