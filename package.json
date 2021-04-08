@@ -1,14 +1,14 @@
 {
-  "name": "foreflight-map-generator",
-  "version": "1.0.0",
-  "description": "Generates kepler.gl readbale CSV from a ForeFlight logbook export",
+  "name": "flight-map-generator",
+  "version": "1.1.0",
+  "description": "Generates kepler.gl readbale CSV from a ForeFlight or Garmin Pilot logbook export",
   "main": "main.js",
   "scripts": {
     "start": "node main.js"
   },
   "author": "Dillon TenBrink <dillon@tenbrink.us>",
   "repository": {
-    "url": "https://github.com/dillten/foreflight-map-generator"
+    "url": "https://github.com/dillten/flight-map-generator"
   },
   "license": "MIT",
   "dependencies": {
