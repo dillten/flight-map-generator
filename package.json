@@ -1,6 +1,6 @@
 {
   "name": "flight-map-generator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Generates kepler.gl readbale CSV from a ForeFlight or Garmin Pilot logbook export",
   "main": "main.js",
   "scripts": {
